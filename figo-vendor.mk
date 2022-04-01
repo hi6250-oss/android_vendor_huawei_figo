@@ -248,6 +248,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/figo/proprietary/odm/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nci.conf \
     vendor/huawei/figo/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
     vendor/huawei/figo/proprietary/odm/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp_RF.conf \
+    vendor/huawei/figo/proprietary/odm/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_beautyshot.so \
+    vendor/huawei/figo/proprietary/odm/lib/libmrc_cg_beauty.so:$(TARGET_COPY_OUT_ODM)/lib/libmrc_cg_beauty.so \
     vendor/huawei/figo/proprietary/odm/lib64/hwcam/hwcam.hi6250.FIGO.p.GC2375FIG.so:$(TARGET_COPY_OUT_ODM)/lib64/hwcam/hwcam.hi6250.FIGO.p.GC2375FIG.so \
     vendor/huawei/figo/proprietary/odm/lib64/hwcam/hwcam.hi6250.FIGO.p.HI1333FIG_SUNNY.so:$(TARGET_COPY_OUT_ODM)/lib64/hwcam/hwcam.hi6250.FIGO.p.HI1333FIG_SUNNY.so \
     vendor/huawei/figo/proprietary/odm/lib64/hwcam/hwcam.hi6250.FIGO.p.HI259FIG_SUNNY.so:$(TARGET_COPY_OUT_ODM)/lib64/hwcam/hwcam.hi6250.FIGO.p.HI259FIG_SUNNY.so \
@@ -269,6 +271,18 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/figo/proprietary/odm/lib64/hwcam/hwcam.hi6250.FIGO.s.OV13855FIG_LITEON.so:$(TARGET_COPY_OUT_ODM)/lib64/hwcam/hwcam.hi6250.FIGO.s.OV13855FIG_LITEON.so \
     vendor/huawei/figo/proprietary/odm/lib64/hwcam/hwcam.hi6250.FIGO.s.OV8856FIG_SUNNY.so:$(TARGET_COPY_OUT_ODM)/lib64/hwcam/hwcam.hi6250.FIGO.s.OV8856FIG_SUNNY.so \
     vendor/huawei/figo/proprietary/odm/lib64/hwcam/hwcam.hi6250.m.FIGO.so:$(TARGET_COPY_OUT_ODM)/lib64/hwcam/hwcam.hi6250.m.FIGO.so \
+    vendor/huawei/figo/proprietary/odm/lib64/libMegviiUnlock.so:$(TARGET_COPY_OUT_ODM)/lib64/libMegviiUnlock.so \
+    vendor/huawei/figo/proprietary/odm/lib64/libarcsoft_agegender_estimation.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_agegender_estimation.so \
+    vendor/huawei/figo/proprietary/odm/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_beautyshot.so \
+    vendor/huawei/figo/proprietary/odm/lib64/libarcsoft_palm_detection.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_palm_detection.so \
+    vendor/huawei/figo/proprietary/odm/lib64/libdcamera_effect.so:$(TARGET_COPY_OUT_ODM)/lib64/libdcamera_effect.so \
+    vendor/huawei/figo/proprietary/odm/lib64/libdualCamera_calibration.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualCamera_calibration.so \
+    vendor/huawei/figo/proprietary/odm/lib64/libmegface.so:$(TARGET_COPY_OUT_ODM)/lib64/libmegface.so \
+    vendor/huawei/figo/proprietary/odm/lib64/libmeglive.so:$(TARGET_COPY_OUT_ODM)/lib64/libmeglive.so \
+    vendor/huawei/figo/proprietary/odm/lib64/libmmi_depth.so:$(TARGET_COPY_OUT_ODM)/lib64/libmmi_depth.so \
+    vendor/huawei/figo/proprietary/odm/lib64/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib64/libmpbase.so \
+    vendor/huawei/figo/proprietary/odm/lib64/libmrc_cg_beauty.so:$(TARGET_COPY_OUT_ODM)/lib64/libmrc_cg_beauty.so \
+    vendor/huawei/figo/proprietary/odm/lib64/libunlockmegcv.so:$(TARGET_COPY_OUT_ODM)/lib64/libunlockmegcv.so \
     vendor/huawei/figo/proprietary/odm/ta/sign_tool_product_ta.sec:$(TARGET_COPY_OUT_ODM)/ta/sign_tool_product_ta.sec \
     vendor/huawei/figo/proprietary/vendor/etc/cfg_fig_al00x_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_fig_al00x_hisi.ini \
     vendor/huawei/figo/proprietary/vendor/etc/cfg_fig_la1_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_fig_la1_hisi.ini \
